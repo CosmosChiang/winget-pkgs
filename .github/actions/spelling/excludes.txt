@@ -62,7 +62,14 @@ ignore$
 ^\.(?!github/)
 ^\.github/actions/spelling/
 ^\.github/policies/moderatorTriggers\.yml$
-^\.github/workflows/spellCheck\.yml$
+^\.github/policies/superModeratorTriggers\.yml$
+^\.github/policies/microsoftMVPTriggers\.yml$
+^\.github/policies/flaggedPackages\.yml$
+^\.github/workflows/
+^\.github/aw/
 (?:^|/)Tools/
 (?:^|/)manifests/
+(?:^|/)fonts/
+(?:^|/)schemas/
 (?:^|/)DevOpsPipelineDefinitions/
+^\.github/policies/labelManagement\.issueUpdated\.yml$
